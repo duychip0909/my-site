@@ -1,0 +1,365 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham';
+}
+ul, ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-start {
+    justify-content: start;
+}
+.align-items-center {
+    align-items: center;
+}
+.custom {
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+h1 {
+    font-size: 48px;
+    font-weight:700;
+}
+.info h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+h5 {
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bg-color {
+    background-color: #1b2931;
+}
+
+header {
+    
+    box-shadow: 0px 11px 28px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper {
+    justify-content: center;
+    display: inline-flex;
+}
+
+.top {
+    padding: 15px 0px;
+}
+
+
+.top .container li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.top .container .social {
+    align-items: center;
+}
+
+.bottom {
+    border-top: 1px solid #295660;
+    padding: 15px 0;
+}
+
+.bottom .menu {
+    align-items: center;
+}
+
+.bottom .container {
+    justify-content: space-between; 
+}
+
+
+header .menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight:500;
+    padding: 10px 25px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #FF0097 20%, #00D3FF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.button-menu {
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px 12px;
+    background-color: #EC008C;
+    box-shadow: 0px 4px 13px rgba(236, 0, 140, 0.7);
+    color: white;
+    font-size: 16px;
+    font-weight:500;
+}
+
+.heading3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    margin: 35px 0;
+}
+
+main .container .left .lcontent {
+    align-items: center;
+}
+
+main .left ul li > button {
+    width: 214px;
+    height: 53px;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    border: 0px;
+}
+
+.bot {
+    margin-top: 45px;
+}
+
+.up {
+    position: absolute;
+    top: 40%;
+}
+
+.btn {
+    box-shadow: 0px 4px 13px #55C6D0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-weight:500;
+    width: 50%;
+    flex: 0% 0% auto;
+}
+
+
+.btn-Blue {
+    background-color: #0C94B0;
+}
+
+.btn-Blue::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgb(255 255 255 / 0%), #9df7ff);
+}
+.btn-Pink::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgb(255 255 255 / 0%), #9df7ff);
+}
+
+.btn-Pink {
+    background-color: #EC008C;
+    margin-left: 25px;
+}
+
+.cer {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: underline 1.5px;
+}
+
+.ambient-light {
+    width: 531px;
+    height: 372px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    background: #00D3E0;
+    filter: blur(150px);
+    overflow: hidden;
+}
+
+.sub-bg {
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.sponsor {
+    background-color: white;
+    border-bottom: solid 2px #01FFF0;
+    border-top: solid 2px #01FFF0;
+    padding: 50px 0;
+}
+
+.banner {
+    background: url(logo/HEADER\ 1.png) no-repeat center center / cover;
+    position: relative;
+    padding: 100px 0;
+}
+
+main .banner .container {
+    position: relative;
+    z-index: 1;
+}
+.roundPink {
+    background: #c40075db;
+    border-radius: 50%;
+    padding: 14px;
+    display: inline-block;
+    border: 1px solid #FC5CD9;
+    box-shadow: 0px 4px 13px #ec008c;
+}
+.features .fea {
+    width: 25%;
+    margin: 0 20px;
+}
+
+.features .fea p {
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.features {
+    margin-top: 3rem;
+}
+
+.read-more-btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #EC008C;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.read-more-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 6px;
+    padding: 2px;
+    background: linear-gradient(to right,#FF0097,#00D3FF);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+}
+
+.btn_readmore {
+    margin-top: 3rem;
+}
+
+.environment {
+    padding: 50px 0;
+}
+
+.list-envi {
+    color: white;
+    font-weight: bold;
+    padding: 0 100px 15px;
+    border-bottom: 1px solid #55C6D0;
+}
+
+.list-envi ul li {
+    padding: 0 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.info {
+    padding: 30px 0;
+}
+
+.frame {
+    padding: 30px 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    width: 17%;
+    margin: 0 12px;
+    background: linear-gradient(242.01deg, #FFFFFF 20.82%, rgba(255, 255, 255, 0.79) 65.38%);
+    box-shadow: 17px 0px 28px rgb(85 198 208 / 15%);
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.arrow {
+    background: url(https://dev.hyperaschain.com/img/arrowBlue.png);
+    width: 24px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.bg-grid {
+    background: #1b2a32 url(https://dev.hyperaschain.com/img/grid.png) no-repeat center top / contain;
+    position: relative;
+}
